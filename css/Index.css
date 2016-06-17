@@ -5,8 +5,9 @@ html {
 body {
 	background-color: white;
 	width: 90%;
-	height: 2000px;
+	height: 1000px;
 	margin: auto;
+	padding-top: 100px;
 }
 
 .carousel {
@@ -20,3 +21,12 @@ body {
     margin: auto;
   }
 
+
+.img {
+	max-height: 315px;
+	
+}
+
+.noir {
+	color:black;
+}

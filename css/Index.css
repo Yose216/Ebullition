@@ -39,13 +39,12 @@ body {
 	width: 250px;
 	border: black 2px solid;
 	display: inline-block;
-	margin-top: 150px;
+	margin-top: 130px;
 
 }
 
 .bar {
 	height : 50px;
-	border: red 2px solid;
 	margin-top: 100%;
 	background-color: #FF9619 ;  
 	filter:alpha(opacity=90);   
@@ -64,11 +63,15 @@ body {
 }
 
 .collec1 p {
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 .collec1 a {
 	color: white;
+}
+
+.collec1 a:hover {
+	color: #B20061;
 }
 
 .collec2 {
@@ -82,12 +85,28 @@ body {
 	color: white;
 }
 
+.collec2 a:hover {
+	color: #B20061;
+}
+
 .collec3 {
 	float: right;
 	margin-right: 10px;
-	background-image: url("Tie&DyeGreen.jpg");
+	background-image: url("Portefeuilles.JPG");
 	background-position: center center;
 	background-size: 100% 100%;
+}
+
+.collec3 a {
+	color: white;
+}
+
+.collec3 p {
+	padding-top: 15px;
+}
+
+.collec3 a:hover {
+	color: #B20061;
 }
 
 

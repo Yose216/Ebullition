@@ -23,10 +23,27 @@ body {
 
 
 .img {
+	
 	max-height: 315px;
 	
 }
 
-.noir {
-	color:black;
+.collec1, .collec2, .collec3 {
+	height: 300px;
+	width: 250px;
+	border: black 2px solid;
+	display: inline-block;
+	margin-top: 150px;
+}
+
+.collec1 {
+	float: left;
+}
+
+.collec2 {
+	margin-left: 18%;
+}
+
+.collec3 {
+	float: right;
 }

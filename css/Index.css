@@ -28,6 +28,12 @@ body {
 	
 }
 
+.Collection h2 {
+	padding-top: 60px;
+	text-align: center;
+	font-size: 35px;
+}
+
 .collec1, .collec2, .collec3 {
 	height: 300px;
 	width: 250px;
@@ -53,8 +59,7 @@ body {
 .collec1 {
 	margin-left: 10px;
 	float: left;
-	background-image: url("BindiDragons.JPG");
-	background-position: center center;
+	background-image: url("8planchebodyunie.png");
 	background-size: cover;
 }
 
@@ -68,10 +73,21 @@ body {
 
 .collec2 {
 	margin-left: 18%;
+	background-image: url("Tie&DyeGreen.jpg");
+	background-position: center center;
+	background-size: 100% 100%;
+}
+
+.collec2 a {
+	color: white;
 }
 
 .collec3 {
 	float: right;
+	margin-right: 10px;
+	background-image: url("Tie&DyeGreen.jpg");
+	background-position: center center;
+	background-size: 100% 100%;
 }
 
 

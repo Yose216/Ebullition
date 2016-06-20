@@ -37,7 +37,6 @@ body {
 .collec1, .collec2, .collec3 {
 	height: 300px;
 	width: 250px;
-	border: black 2px solid;
 	display: inline-block;
 	margin-top: 130px;
 

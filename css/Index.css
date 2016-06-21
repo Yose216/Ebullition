@@ -57,77 +57,54 @@ body {
 
 }
 
-.menu li:first-child li{
-background: #FF9619;
-}
-.menu li:nth-child(2) li{
-background: #FF9619;
-}
-.menu li:nth-child(3) li{
-background: #FF9619;
-}
-.menu li:nth-child(4) li{
-background: #FF9619;
-}
-.menu li:nth-child(5) li{
-background: #FF9619;
-}
-.menu li:last-child li{
-background: #FF9619;
-}
 /* background des liens menus et sous menus au survol */
-.menu li:first-child:hover, .menu li:first-child li:hover{
-background: #FF9619;
+.menu li:hover {
+	background-color: #FF9619;
 }
-.menu li:nth-child(2):hover, .menu li:nth-child(2) li:hover{
-background: #FF9619;
-}
-.menu li:nth-child(3):hover, .menu li:nth-child(3) li:hover{
-background: #FF9619;
-}
-.menu li:nth-child(4):hover, .menu li:nth-child(4) li:hover{
-background: #FF9619;
-}
-.menu li:nth-child(5):hover, .menu li:nth-child(5) li:hover{
-background: #FF9619;
-}
-.menu li:last-child:hover, .menu li:last-child li:hover{
-background: #FF9619;
-}
+
 /* les a href */
 .menu a{
-text-decoration:none;
-display:block;
-padding:8px 32px;
-color:black;
-font-family: "Merriweather";
-font-size: 17px;
+	text-decoration:none;
+	display:block;
+	padding:8px 32px;
+	color:black;
+	font-family: "Merriweather";
+	font-size: 17px;
 }
 .menu ul a{
-padding:8px 0;
+	padding:8px 0;
 }
 .menu li:hover li a{
-color: black;
-text-transform:inherit;
+	color: black;
+	text-transform:inherit;
+	background-color: #FF9619;
 }
 .menu li:hover a, .menu li li:hover a{
-color:#B20061;
+	color:#B20061;
+ 
 }
 
 .menu li:hover ul{
-max-height:15em;
+	max-height:15em;
 }
 
 .desc {
 	width: 90%;
 	font-size: 20px;
 	margin: auto;
-	padding-bottom: 150px;
+	padding-bottom: 70px;
 }
 
 .desc h2 {
 	font-size: 50px;
 	padding-bottom: 50px;
+}
+
+.desc img {
+	padding-bottom: 50px;
+	width: 600px;
+	height: 350px;
+	margin-left: 250px;
 }
 
 .carousel {
@@ -144,13 +121,13 @@ max-height:15em;
 
 .img {
 	
-	max-height: 315px;
+	max-height: 370px;
 	
 }
 
 .Collection h2 {
 	margin: auto;
-	padding-top: 60px;
+	padding-top: 100px;
 	text-align: center;
 	font-size: 35px;
 	width: 70%;

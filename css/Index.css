@@ -3,20 +3,130 @@ violet: #B20061;*/
 
 html {
 	background-color: #B20061;
+
 }
 
 body {
 	background-color:  #f5f5f5;
 	width: 95%;
-	height: 1000px;
 	margin: auto;
 	padding-top: 100px;
 	border: #B20061 5px solid;
 	border-style: ridge;
+	font-family: "Open Sans";
+}
+
+.color {
+	background-color:#B20061;
+}
+
+.menu, .menu ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	text-align:center;
+	
+}
+
+.menu li{
+	display:inline-block;
+	position:relative;
+
+
+}
+
+.menu ul li{
+	display:inherit;
+	border-radius:0;
+}
+
+.menu ul li:hover{
+	border-radius:0;
+}
+
+.menu ul{
+	position:absolute;
+	z-index: 1000;
+	max-height:0;
+	left: 0;
+	right: 0;
+	overflow:hidden;
+	-moz-transition: .0s all .0s;
+	-webkit-transition: .0s all .0s;
+	transition: .0s all .0s;
+
+}
+
+.menu li:first-child li{
+background: #FF9619;
+}
+.menu li:nth-child(2) li{
+background: #FF9619;
+}
+.menu li:nth-child(3) li{
+background: #FF9619;
+}
+.menu li:nth-child(4) li{
+background: #FF9619;
+}
+.menu li:nth-child(5) li{
+background: #FF9619;
+}
+.menu li:last-child li{
+background: #FF9619;
+}
+/* background des liens menus et sous menus au survol */
+.menu li:first-child:hover, .menu li:first-child li:hover{
+background: #FF9619;
+}
+.menu li:nth-child(2):hover, .menu li:nth-child(2) li:hover{
+background: #FF9619;
+}
+.menu li:nth-child(3):hover, .menu li:nth-child(3) li:hover{
+background: #FF9619;
+}
+.menu li:nth-child(4):hover, .menu li:nth-child(4) li:hover{
+background: #FF9619;
+}
+.menu li:nth-child(5):hover, .menu li:nth-child(5) li:hover{
+background: #FF9619;
+}
+.menu li:last-child:hover, .menu li:last-child li:hover{
+background: #FF9619;
+}
+/* les a href */
+.menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:black;
+font-family: "Merriweather";
+font-size: 17px;
+}
+.menu ul a{
+padding:8px 0;
+}
+.menu li:hover li a{
+color: black;
+text-transform:inherit;
+}
+.menu li:hover a, .menu li li:hover a{
+color:#B20061;
+}
+
+.menu li:hover ul{
+max-height:15em;
+}
+
+.desc {
+	width: 90%;
+	font-size: 20px;
+	margin: auto;
+	padding-bottom: 150px;
 }
 
 .carousel {
-	width: 70%;
+	width: 80%;
 	margin: auto;
 }
 
@@ -63,7 +173,7 @@ body {
 }
 
 .collec1 {
-	margin-left: 10px;
+	margin-left: 12%;
 	float: left;
 	background-image: url("Images/8planchebodyunie.png");
 	background-size: cover;
@@ -82,7 +192,7 @@ body {
 }
 
 .collec2 {
-	margin-left: 18%;
+	margin-left: 12%;
 	background-image: url("Images/Tie&DyeGreen.jpg");
 	background-position: center center;
 	background-size: 100% 100%;
@@ -98,7 +208,7 @@ body {
 
 .collec3 {
 	float: right;
-	margin-right: 10px;
+	margin-right: 12%;
 	background-image: url("Images/Portefeuilles.JPG");
 	background-position: center center;
 	background-size: 100% 100%;

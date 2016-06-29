@@ -2,11 +2,15 @@
 violet: #B20061;*/
 
 html {
-	background-color: #B20061;
+	background-color: ;
 
 }
 
 body {
+	background-color: #B20061;
+}
+
+.principale {
 	background-color:  #f5f5f5;
 	width: 95%;
 	margin: auto;

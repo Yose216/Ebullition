@@ -178,7 +178,7 @@ body {
 }
 
 .collec2 {
-	margin-left: 12%;
+	margin-left: 14%;
 	background-image: url("Images/Tie&DyeGreen.jpg");
 	background-position: center center;
 	background-size: 100% 100%;
@@ -229,7 +229,11 @@ footer {
 .contact h4{
 	padding-left: 60px;
 	font-size: 35px;
-	color: black;
+}
+
+.contact a {
+	color: #FF9619;
+	text-decoration: none;
 }
 
 .contact p {
@@ -249,4 +253,18 @@ footer {
 .socialnet i {
 	padding-right: 5px;
 	color: #FF9619;
+	padding-bottom: 20px;
+}
+
+.ment {
+	padding-left: 60px;
+	color: #FF9619;
+}
+
+.ment:hover {
+	color: #9B5400;
+}
+
+footer i:hover {
+	color: #9B5400;
 }

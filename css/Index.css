@@ -227,6 +227,10 @@ footer {
 	display: inline;
 }
 
+.contact {
+	margin-left: 100px;
+}
+
 .contact h4{
 	padding-left: 60px;
 	font-size: 35px;
@@ -256,7 +260,7 @@ footer {
 }
 
 .socialnet {
-	padding-left: 80px;
+	padding-left: 160px;
 	padding-top: 17px;
 }
 
@@ -267,7 +271,7 @@ footer {
 }
 
 .ment  {
-	padding-left: 60px;
+	padding-left: 230px;
 	color: #FF9619;
 	padding-top: 22px!important;
 	font-weight: bold;

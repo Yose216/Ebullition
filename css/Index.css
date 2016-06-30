@@ -222,8 +222,9 @@ body {
 }
 
 footer {
-	padding-top: 20px;
+	
 	padding-bottom: 30px;
+	display: inline;
 }
 
 .contact h4{
@@ -237,7 +238,7 @@ footer {
 }
 
 .contact p {
-	padding-left: 80px;
+	padding-left: 85px;
 	color: #FF9619;
 }
 
@@ -246,8 +247,17 @@ footer {
 	color: #FF9619;
 }
 
+.tel {
+	padding-right: 10px;
+}
+
+.fooIco {
+	padding-left: 60px!important;
+}
+
 .socialnet {
 	padding-left: 80px;
+	padding-top: 17px;
 }
 
 .socialnet i {
@@ -256,10 +266,13 @@ footer {
 	padding-bottom: 20px;
 }
 
-.ment {
+.ment  {
 	padding-left: 60px;
 	color: #FF9619;
+	padding-top: 22px!important;
+	font-weight: bold;
 }
+
 
 .ment:hover {
 	color: #9B5400;
